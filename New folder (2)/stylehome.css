@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri&family=Cairo:wght@200&family=Lemonada:wght@300&display=swap'); 
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Amiri', serif;
+font-family: 'Cairo', sans-serif;
+font-family: 'Lemonada', cursive;
+text-decoration: none;
+text-transform: capitalize;
+}
+
+/*    home page */
+.home-page{
+    background-image: url(../iamges/HD-wallpaper-beauty-model-eye-nails-woman-girl-purple-hand-jewel-face-ring.jpg) ;
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.home-page-opacity{
+    height: 100vh;
+    background-color: rgba(31, 29, 29, 0.692);
+    position: relative;
+}
+.home-page-item{
+    width: 600px;
+    text-align: center;
+    color:white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border: 1px solid rgb(146, 141, 141);
+    padding: 10px 10px;
+    margin: 5px 5px;
+}
+    .home-page-item h1{
+        text-size-adjust: 300000px;
+        color: white;
+
+    }
+
+/*  end home page */
+marquee{
+    scroll-behavior: auto;
+    background-color: blanchedalmond;
+    direction: do;
+    height: 30px;
+    
+}
+/* ----- header ---- */
+header{
+    /* background-color: gray; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0px;
+    box-shadow: 3px 3px 10px rgb(204, 87, 185);
+    position: sticky;
+    top: 0;
+    background-color: rgba(139, 129, 129, 0.658);
+}
+
+.logo h1 img{
+    width: 40px;
+    height: 40px;
+}
+
+.logo h1{
+    /* background-color: palevioletred; */
+color: rgb(202, 106, 170);
+}
+
+
+.logo h1 span{
+    background-color:rgb(119, 100, 77);
+    padding: 2px;
+    color: white;
+}
+
+/*nav{
+     background-color: yellow; 
+}*/
+
+nav a{
+    color: white;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: white;
+    background: linear-gradient(30deg,white,rgb(131, 100, 100));
+}
+
+
+
+.fa{
+    color: white;
+    background-color:rgb(150, 94, 106);
+    padding: 10px;
+    border-radius: 20px 10px;
+    transition: 0.5s;
+}
+footer{
+    text-align: center;
+}
+.fa:hover{
+    background-color: rgb(140, 134, 146);
+    cursor: pointer;
+
+}
+/* ----- end header ---- */
